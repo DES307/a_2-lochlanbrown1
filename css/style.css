@@ -1,1 +1,41 @@
+@charset "UTF-8";
+/* CSS Document */
 
+.container {
+    max-width: 70%;
+}
+
+header {
+    margin-bottom: 20px;
+    position: fixed;
+    background-color: #ffffff;
+    margin: inherit auto;
+    z-index: 2;
+}
+
+.nav-bar, .nav-top {
+margin-top: 20px;
+}
+
+.nav-bar {
+    margin-bottom: 20px;
+}
+
+a {
+    color: black;
+}
+
+.container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
+    padding: 0;
+}
+
+#nav a {
+    font-size: 16pt;
+}
+
+main {
+    padding-top: 100px;
+}
+.card {
+    margin: 50px;
+}
