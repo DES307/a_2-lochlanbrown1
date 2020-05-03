@@ -11,6 +11,7 @@ header {
     background-color: #ffffff;
     margin: inherit auto;
     z-index: 2;
+    top: 0;
 }
 
 .nav-bar, .nav-top {
@@ -33,9 +34,30 @@ a {
     font-size: 16pt;
 }
 
-main {
-    padding-top: 100px;
-}
 .card {
-    margin: 50px;
+    margin: 5%;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footnote {
+    text-align: center;
+}
+
+footer {
+    background-color: #fff;
+    padding-top: 20px;
+}
+
+.subscribe-sec {
+    background-color: #ec6421;
+    padding: 20px;
+    color: white;
+}
+
+li {
+    list-style: none;
 }
